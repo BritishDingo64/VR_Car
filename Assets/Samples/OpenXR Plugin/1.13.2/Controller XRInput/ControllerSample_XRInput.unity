@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.46169513, g: 0.5124164, b: 0.58993304, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -294,6 +294,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 299928980}
     m_Modifications:
+    - target: {fileID: 4346727373368105283, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 4346727374823546882, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
       propertyPath: m_Name
       value: PoseMarker_XRInput
@@ -996,6 +1000,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652324951}
     m_Modifications:
+    - target: {fileID: 4346727373368105283, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 4346727374823546882, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
       propertyPath: m_Name
       value: PoseMarker_XRInput
@@ -2836,6 +2844,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4346727373368105283, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 4346727374823546882, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
       propertyPath: m_Name
       value: PoseMarker_XRInput
@@ -3228,6 +3240,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4346727373368105283, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 4346727373925079742, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
@@ -5720,6 +5736,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8189325207506440572, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 8306408600357896413, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5744,6 +5764,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8320408161018247815, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 8344783843130831065, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6188,6 +6212,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4346727373368105283, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 4346727373925079742, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
@@ -8112,6 +8140,10 @@ PrefabInstance:
       propertyPath: m_XRNode
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8189325207506440572, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 8224127846850673251, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
       propertyPath: m_XRNode
       value: 5
@@ -8144,6 +8176,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8320408161018247815, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 8344783843130831065, guid: ca8578bb64a826749ba21c3d7277db2f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -8386,6 +8422,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!114 &1632315499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8938,7 +8975,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9492,6 +9529,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4346727373368105283, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 4346727374823546882, guid: 6a06ae3b5dad94140b1b27164d137645, type: 3}
       propertyPath: m_Name
       value: PoseMarker_XRInput
